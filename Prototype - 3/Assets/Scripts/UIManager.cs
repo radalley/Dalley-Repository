@@ -16,7 +16,7 @@ public class UIManager : MonoBehaviour
     {
         if(scoreText == null)
         {
-            scoreText == FindObjectOfType<Text>();
+            scoreText = FindObjectOfType<Text>();
         }
 
         if(playerControllerScript == null)
@@ -50,9 +50,9 @@ public class UIManager : MonoBehaviour
             scoreText.text = "You Win!" + "\n" + "Press R to Try Again";
         }
 
-        /*if (playerControllerScript.gameOver && Input.GetKeyDown(KeyCode.R))
+        if (playerControllerScript.gameOver && Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }*/
+        }
     }
 }
