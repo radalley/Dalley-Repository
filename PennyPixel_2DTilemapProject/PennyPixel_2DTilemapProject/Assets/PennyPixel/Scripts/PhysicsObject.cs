@@ -35,6 +35,10 @@ public class PhysicsObject : MonoBehaviour {
     void Update () 
     {
         targetVelocity = Vector2.zero;
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        }
         ComputeVelocity (); 
     }
 

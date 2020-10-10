@@ -7,6 +7,7 @@ public class ScoreManager : MonoBehaviour
 {
     public Text textbox;
     public int score = 0;
+    public int win = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,15 +19,12 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         textbox.text = "Score: " + score;
-        if (score >= 10)
+        if (win == 1)
         {
             textbox.text = "You Win! Press R to try again!";
         }
         //Press R to restart if game is over
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
-        }
+       
 
     }
 }

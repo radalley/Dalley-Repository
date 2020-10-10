@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Through
+  - ScoreManager
+  - EndTrigger
   layers:
   - Default
   - TransparentFX
@@ -48,9 +50,15 @@ TagManager:
   - name: Main
     uniqueID: 1907945055
     locked: 0
+  - name: BackPattern
+    uniqueID: 2012424195
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Foreground
     uniqueID: 1632157909
+    locked: 0
+  - name: Player
+    uniqueID: 189725025
     locked: 0
