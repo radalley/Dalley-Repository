@@ -3455,7 +3455,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679012108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9459167, y: -5.7703147, z: -10.206299}
+  m_LocalPosition: {x: 5.147816, y: -5.7703147, z: -10.206299}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 870006505}
@@ -3718,7 +3718,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Test
+  m_Text: 'Place Text on ScoreManager
+
+'
 --- !u!222 &868843119
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28541,7 +28543,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648669905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.690958, y: -5.300364, z: -10}
+  m_LocalPosition: {x: 4.8928576, y: -5.300364, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 779641615}
