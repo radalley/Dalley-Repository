@@ -11,7 +11,7 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        textbox = GetComponent<Text>();
+       // textbox = GetComponent<Text>();
         textbox.text = "Score: 0";
     }
 
