@@ -18,10 +18,14 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textbox.text = "Score: " + score;
-        if (win == 1)
+        
+        if (score >= 10)
         {
-            textbox.text = "You Win! Press R to try again!";
+            textbox.text = "Good job! Press P to pause and try the other levels!";
+        }
+        else
+        {
+            textbox.text = "Score: " + score;
         }
         //Press R to restart if game is over
        
