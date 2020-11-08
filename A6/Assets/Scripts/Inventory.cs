@@ -6,6 +6,7 @@ public class Inventory : MonoBehaviour
 {
     [SerializeField] private InventoryItem item;
     public List<InventoryItem> inventory;
+
     // Start is called before the first frame update
     void Start()
     {
